@@ -1,0 +1,42 @@
+@import "../../variables.scss";
+
+.experience-card {
+  margin-bottom: 20px;
+
+  .experience-head {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+
+    .check-icon {
+      color: $primary-color;
+      width: 20px;
+    }
+  }
+
+  .about-role{
+      margin-bottom: 10px;
+  }
+
+  h3 {
+    color: #333;
+    font-weight: 600;
+    a {
+      color: $primary-color;
+      text-underline-offset: 5px;
+      font-size: 16px;
+    }
+  }
+
+  .technologies-used {
+    padding: 10 20px;
+
+    li {
+      list-style-type: disc;
+      list-style-position: inside;
+      padding: 5px;
+      border-bottom: 1px solid $grey-color;
+    }
+  }
+}

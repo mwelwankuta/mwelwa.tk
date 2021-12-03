@@ -1,0 +1,55 @@
+@import "../../variables.scss";
+
+main {
+  .title {
+    text-transform: uppercase;
+    border-bottom: 1px solid $light-grey-color;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  .info {
+    margin-bottom: 20px;
+    .description {
+      margin: 20px 0;
+    }
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .link {
+    color: $primary-color;
+  }
+
+  .about-project-info {
+    margin-top: 20px;
+
+    h2 {
+      border-bottom: none;
+    }
+
+    ul {
+      margin-top: 10px;
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+
+      li {
+        p {
+          color: $primary-color;
+          text-decoration: none;
+          font-size: 15px;
+          border-radius: 6px;
+
+          &:hover {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+          }
+        }
+      }
+    }
+  }
+}

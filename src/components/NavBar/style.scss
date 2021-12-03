@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+
+nav {
+  padding: 8px 20px;
+  backdrop-filter: blur(45px);
+  border-bottom: 1px solid $grey-color;
+  background-color: rgba(255, 255, 255, 0.301);
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  height: 30px;
+
+  .nav-content {
+    max-width: 1024px;
+    margin: 0 auto;
+    align-items: flex-start;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .left-nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .nav-item {
+      color: #333333;
+      text-decoration: none;
+      font-size: 15px;
+      padding: 5px 8px;
+      border-radius: 6px;
+
+      &:hover {
+        background-color: $light-grey-color;
+        transition: 0.7s;
+      }
+    }
+
+    .active {
+      color: black;
+      font-weight: 600;
+    }
+  }
+
+  img {
+    border-radius: 100%;
+    object-fit: cover;
+    height: 27px;
+    width: 27px;
+  }
+}

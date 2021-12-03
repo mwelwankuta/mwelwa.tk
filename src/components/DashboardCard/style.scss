@@ -1,0 +1,31 @@
+@import "../../variables.scss";
+
+.dashboard-card {
+  padding: 8px 10px;
+  background-color: $dark-grey-color;
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+
+  .header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2px;
+    .title {
+      font-weight: 400;
+      font-size: 13px;
+    }
+    .link-icon {
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      margin-bottom: -4px;
+      cursor: pointer;
+      color: #acacac;
+    }
+
+    .count {
+      font-weight: 500;
+      margin-top: 5px;
+    }
+  }
+}

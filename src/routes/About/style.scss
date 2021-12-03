@@ -1,0 +1,26 @@
+@import "../../variables.scss";
+
+main {
+  margin: 10px;
+
+  h1 {
+    color: black;
+    width: fit-content;
+    border-radius: 6px;
+    font-size: 40px;
+  }
+
+  .about-myself {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    .company {
+      color: $primary-color;
+    }
+  }
+
+  .experience {
+    margin-top: 10px;
+  }
+}

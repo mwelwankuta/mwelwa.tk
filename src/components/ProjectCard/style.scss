@@ -1,0 +1,51 @@
+@import "../../variables.scss";
+
+.project-card {
+  padding: 14px 10px;
+  background-color: #ffffff47;
+  border: 1px solid $grey-color;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .description {
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  .visit {
+    padding: 5px 10px;
+    color: #333;
+    background-color: #eeeeee;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 6px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+    &:hover {
+      background-color: #e2e2e2;
+      transition: 0.3s;
+    }
+  }
+
+  .outline {
+    background-color: transparent;
+    border: 1px solid #e7e7e7;
+
+    &:hover {
+      border-color: #999;
+    }
+  }
+}
