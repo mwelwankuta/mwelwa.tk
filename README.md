@@ -13,10 +13,10 @@ $ git clone https://github.com/mwelwankuta/mwelwa.tk
 $ cd mwelwa.tk
 ```
 
-while in the root directory
+while in the project directory
 
 ```
-$ npm run install
+$ npm install
 $ npm run dev
 
 ```
