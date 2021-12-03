@@ -1,11 +1,12 @@
 <script lang="ts">
+  import {slide} from 'svelte/transition'
   import { link as Link } from "svelte-navigator";
   export let title = "";
   export let description = "";
   export let link = "";
 </script>
 
-<div class="project-card">
+<div class="project-card" in:slide>
   <h2 class="title">{title}</h2>
   <p class="description">{description}</p>
   <div class="actions">

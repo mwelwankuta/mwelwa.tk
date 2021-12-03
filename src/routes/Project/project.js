@@ -38,9 +38,9 @@ export default [
     id: 4,
     name: "mwelwa.tk",
     description:
-      "my portifolio website, mwelwa.tk, built with sveltejs, expressjs and mongodb. this website makes external api requests to the twitter and spotify api.",
+      "my portifolio website, mwelwa.tk, built with sveltejs and scss.  makes  api requests to the Twitter and GitHub api.",
     link: "https://github.com/mwelwankuta/mwelwa.tk",
     image: "mwelwa.tk.png",
-    technologies: ["SvelteKit", "SvelteKit Endpoints", "Sass"],
+    technologies: ["Svelte", "Sass"],
   },
 ];

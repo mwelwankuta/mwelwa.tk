@@ -6,10 +6,6 @@ import typescript from "@rollup/plugin-typescript";
 import { terser } from "rollup-plugin-terser";
 import preprocess from "svelte-preprocess";
 import css from "rollup-plugin-css-only";
-import replace from "@rollup/plugin-replace";
-import includeEnv from "svelte-environment-variables";
-import dotenv from "dotenv";
-dotenv.config();
 
 const production = !process.env.ROLLUP_WATCH;
 
@@ -47,15 +43,6 @@ export default {
     file: "public/build/bundle.js",
   },
   plugins: [
-    replace({
-      ...includeEnv(),
-      preventAssignment: true,
-      process: JSON.stringify({
-        env: {
-          NODE_ENV: production,
-        },
-      }),
-    }),
     svelte({
       preprocess: preprocess(),
       compilerOptions: {
