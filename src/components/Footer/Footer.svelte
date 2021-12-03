@@ -17,7 +17,6 @@
     <div class="third-col">
       <a href="https://instagram.com/merlee4t/" target="_blank">Instagram</a>
       <a href="https://dev.to/mwelwankuta" target="_blank">Dev.to</a>
-      <a href="/" target="_blank" />
     </div>
   </div>
   <p class="copyright">Copyright &copy; 2021 Mwelwa Nkuta</p>
