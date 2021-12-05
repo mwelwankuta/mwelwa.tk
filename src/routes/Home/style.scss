@@ -1,11 +1,33 @@
 @import "../../variables.scss";
 
 header {
-  margin: 10px;
+  align-items: center;
+  margin: 0 10px;
   display: flex;
   justify-content: space-between;
-
+  gap:20px;
+  
   .left-home {
+
+    .one{
+      color:#92122c;
+    }
+    .two{
+      color:#667e0f;
+    }
+    .three{
+      color:#082f9c;
+    }
+    .four{
+      color:#1a7932;
+    }
+    .five{
+      color:#660808;
+    }
+    .six{
+      color:#9900ff;
+    }
+    
     img {
       border-radius: 100%;
       width: 70px;
@@ -29,6 +51,11 @@ header {
       border-radius: 6px;
       font-weight: 500;
       font-size: 40px;
+    }
+
+    h2{
+      margin-top:20px ;
+      text-transform: capitalize;
     }
 
     p {
@@ -127,4 +154,6 @@ main {
     flex-direction: column;
     gap: 10px;
   }
+
+  
 }

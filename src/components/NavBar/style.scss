@@ -2,7 +2,7 @@
 
 nav {
   padding: 8px 20px;
-  backdrop-filter: blur(45px);
+  backdrop-filter: blur(15px);
   border-bottom: 1px solid $grey-color;
   background-color: rgba(255, 255, 255, 0.301);
   position: sticky;
@@ -18,10 +18,48 @@ nav {
     display: flex;
   }
 
+  .mobile {
+    align-items: center;
+    @media (max-width: 600px) {
+      display: flex;
+    }
+
+    .page{
+      font-size: large;
+      margin-left: 10px;
+      font-weight: 600;
+    }
+
+    .menu-btn {
+      display: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      padding: 4px;
+
+      &:hover {
+        background-color: $light-grey-color;
+        border-radius: 100%;
+      }
+
+      .menu-icon {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+
   .left-nav {
     display: flex;
     align-items: center;
     gap: 10px;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
 
     .nav-item {
       color: #333333;

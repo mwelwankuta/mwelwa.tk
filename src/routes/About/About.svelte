@@ -42,7 +42,7 @@
 <main>
   <h1>About me</h1>
   <p class="about-myself">
-    Hey, I am Mwelwa Nkuta, full stack developer and co-founder of <span
+    Hey, I am Mwelwa Nkuta, a high school student, full stack developer and co-founder of <span
       class="company">Locas Technologies</span
     >
     . I am currently building full stack web applications with Svelte, React and

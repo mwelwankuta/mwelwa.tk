@@ -1,7 +1,8 @@
 @import "../../variables.scss";
 
 .experience-card {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
+  margin-top: 10px;
 
   .experience-head {
     display: flex;
@@ -24,7 +25,13 @@
     font-weight: 600;
     a {
       color: $primary-color;
-      text-underline-offset: 5px;
+      text-decoration: none;
+    
+      &:hover{
+        text-underline-offset: 5px;
+        text-decoration: underline;
+      }
+
       font-size: 16px;
     }
   }
