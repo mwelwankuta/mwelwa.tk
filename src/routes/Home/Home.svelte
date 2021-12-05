@@ -7,7 +7,7 @@
   // scroll to top
   onMount(() => window.scrollTo(0, 0));
 
-  let lang = {name: 'java', color:'blue'};
+  let lang = {name: 'React', color:'one'};
 
   const languages = [
     {name: 'React', color: 'one'},
@@ -15,9 +15,9 @@
     {name: 'SvelteKit', color: 'three'},
     {name: 'Gatsby', color: 'four'},
     {name: 'Next.js', color: 'five'},
-    {name: 'GraphQL', color: 'six'},
-    {name: 'Node.js', color: 'seven'},
-    {name: 'Flask', color: 'eigth'}
+    {name: 'Node.js', color: 'six'},
+    {name: 'GraphQL', color: 'two'},
+    {name: 'Flask', color: 'five'}
   ]
   onMount(() => {
       setInterval(() => {

@@ -5,29 +5,28 @@ header {
   margin: 0 10px;
   display: flex;
   justify-content: space-between;
-  gap:20px;
-  
-  .left-home {
+  gap: 20px;
 
-    .one{
-      color:#92122c;
+  .left-home {
+    .one {
+      color: #2196f3;
     }
-    .two{
-      color:#667e0f;
+    .two {
+      color: #ff3b30;
     }
-    .three{
-      color:#082f9c;
+    .three {
+      color: #ff2d55;
     }
-    .four{
-      color:#1a7932;
+    .four {
+      color: #673ab7;
     }
-    .five{
-      color:#660808;
+    .five {
+      color: #000000;
     }
-    .six{
-      color:#9900ff;
+    .six {
+      color: #009688;
     }
-    
+
     img {
       border-radius: 100%;
       width: 70px;
@@ -53,8 +52,8 @@ header {
       font-size: 40px;
     }
 
-    h2{
-      margin-top:20px ;
+    h2 {
+      margin-top: 20px;
       text-transform: capitalize;
     }
 
@@ -154,6 +153,4 @@ main {
     flex-direction: column;
     gap: 10px;
   }
-
-  
 }
