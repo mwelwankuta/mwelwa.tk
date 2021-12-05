@@ -1,0 +1,21 @@
+{
+    "short_name": "Mwlewa",
+    "name": "Mwelwa Nkuta",
+    "description": "Fullstack developer at Locas Technologies and Future Stack Dev at BongoHive.",
+    "start_url": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "background_color": "white",
+    "theme_color": "white",
+    "icons": [
+        {
+            "src": "/resources/mwelwa.png",
+            "sizes": "380x509"
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}

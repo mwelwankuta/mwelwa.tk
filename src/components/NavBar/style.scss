@@ -20,14 +20,16 @@ nav {
 
   .mobile {
     align-items: center;
+    display: none;
     @media (max-width: 600px) {
       display: flex;
     }
 
-    .page{
+    .page {
       font-size: large;
       margin-left: 10px;
       font-weight: 600;
+      text-transform: capitalize;
     }
 
     .menu-btn {
