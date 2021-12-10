@@ -1,4 +1,4 @@
-@import "../../variables.scss";
+@import '../../variables.scss';
 
 header {
   align-items: center;
@@ -64,28 +64,6 @@ header {
       .company {
         color: $primary-color;
         font-weight: bold;
-      }
-    }
-
-    ul {
-      margin-top: 10px;
-      list-style-type: none;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-
-      li {
-        a {
-          color: $primary-color;
-          text-decoration: none;
-          font-size: 15px;
-          border-radius: 6px;
-
-          &:hover {
-            text-decoration: underline;
-            text-underline-offset: 4px;
-          }
-        }
       }
     }
 

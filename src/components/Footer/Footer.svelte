@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { links } from "svelte-navigator";
+  import { links } from 'svelte-navigator';
+  const year = new Date().getFullYear();
 </script>
 
 <footer>
@@ -19,9 +20,9 @@
       <a href="https://dev.to/mwelwankuta" target="_blank">Dev.to</a>
     </div>
   </div>
-  <p class="copyright">Copyright &copy; 2021 Mwelwa Nkuta</p>
+  <p class="copyright">Copyright &copy; {year} Mwelwa Nkuta</p>
 </footer>
 
 <style lang="scss">
-  @import "./style.scss";
+  @import './style.scss';
 </style>
