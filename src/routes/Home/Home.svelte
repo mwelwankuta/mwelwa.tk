@@ -15,14 +15,19 @@
     { name: 'Svelte', color: 'two' },
     { name: 'SvelteKit', color: 'three' },
     { name: 'Next.js', color: 'five' },
-    { name: 'Git', color: 'six' },
     { name: 'Gatsby', color: 'four' },
-    { name: 'Node.js', color: 'six' },
-    { name: 'Vim', color: 'one' },
+    { name: 'MongoDB', color: 'six' },
+    { name: 'MySQL', color: 'three' },
+    { name: 'Node.js', color: 'three' },
+    { name: 'Flask', color: 'five' },
     { name: 'GraphQL', color: 'two' },
+    { name: 'TypeScript', color: 'one' },
     { name: 'Docker', color: 'three' },
     { name: 'Google Cloud', color: 'two' },
-    { name: 'Flask', color: 'five' },
+    { name: 'Git', color: 'six' },
+    { name: 'Vim', color: 'three' },
+    { name: 'TailwindCSS', color: 'four' },
+    { name: 'SCSS', color: 'five' },
   ];
 
   onMount(() => {
