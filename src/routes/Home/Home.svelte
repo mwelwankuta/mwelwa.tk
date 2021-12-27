@@ -17,6 +17,7 @@
     { name: 'Next.js', color: 'five' },
     { name: 'Gatsby', color: 'four' },
     { name: 'MongoDB', color: 'six' },
+    { name: 'React Native', color: 'one' },
     { name: 'MySQL', color: 'three' },
     { name: 'Node.js', color: 'three' },
     { name: 'Flask', color: 'five' },
@@ -49,11 +50,15 @@
     <img src="/resources/mwelwa.png" alt="" />
     <h1>Mwelwa Nkuta</h1>
     <p>
-      Full Stack Developer at <span class="company">Locas Technologies</span>
-      and Future Stack Developer at <span class="company">BongoHive</span>
+      Full Stack Web and Mobile Developer who enjoys playing videos games, and learning new things.
+      My favorite technologies are right now are: 
+      <span class="company">React.js</span>,
+<span class="company">TypeScript</span>,
+<span class="company">GraphQL</span> and
+<span class="company">MongoDB</span>
     </p>
     <h2 class={`${lang.color} language`} in:fade>{lang.name}</h2>
-    <button class="resume-btn">Download Resume</button>
+    
   </div>
 
   <div class="right-home">
