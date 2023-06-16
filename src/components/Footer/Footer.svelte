@@ -1,6 +1,5 @@
 <script lang="ts">
-  import { links } from 'svelte-navigator';
-  const year = new Date().getFullYear();
+  import { links } from "svelte-navigator";
 </script>
 
 <footer>
@@ -11,18 +10,18 @@
       <a href="/contact">Contact</a>
     </div>
     <div class="second-col">
-      <a href="https://twittter.com/Merlee4t" target="_blank">Twitter</a>
       <a href="https://github.com/mwelwankuta" target="_blank">GitHub</a>
       <a href="https://linkedin.com/in/mwelwa" target="_blank">LinkedIn</a>
     </div>
     <div class="third-col">
-      <a href="https://instagram.com/merlee4t/" target="_blank">Instagram</a>
+      <a href="https://instagram.com/mwelwa_nkuta/" target="_blank">Instagram</a
+      >
       <a href="https://dev.to/mwelwankuta" target="_blank">Dev.to</a>
     </div>
   </div>
-  <p class="copyright">Copyright &copy; {year} Mwelwa Nkuta</p>
+  <p class="copyright">Copyright &copy; {new Date().getFullYear()} Mwelwa Nkuta</p>
 </footer>
 
 <style lang="scss">
-  @import './style.scss';
+  @import "./style.scss";
 </style>

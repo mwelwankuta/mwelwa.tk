@@ -45,14 +45,6 @@
       <a href="/about" class="nav-item" class:active={pathname === "/about"}
         >About</a
       >
-      <a
-        href="/dashboard"
-        class="nav-item"
-        class:active={pathname === "/dashboard"}>Dashboard</a
-      >
-      <a href="/tweets" class="nav-item" class:active={pathname === "/tweets"}
-        >Tweets</a
-      >
     </div>
     <div class="mobile">
       <button class="menu-btn" on:click={handleToggleMenu}>
@@ -76,7 +68,7 @@
       </p>
     </div>
     {#if showNavImage}
-      <img src="/resources/mwelwa.png" alt="" transition:fade />
+      <img src="/resources/mwelwa.jpeg" alt="" transition:fade />
     {/if}
   </div>
 </nav>

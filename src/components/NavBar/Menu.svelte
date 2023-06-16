@@ -11,8 +11,6 @@
 <ul use:links on:blur={toggleMenu} transition:slide={{duration:300}}>
   <li><a href="/" on:click={toggleMenu}>Home</a></li>
   <li><a href="/about" on:click={toggleMenu}>About</a></li>
-  <li><a href="/dashboard" on:click={toggleMenu}>Dashboard</a></li>
-  <li><a href="/tweets" on:click={toggleMenu}>Tweets</a></li>
 </ul>
 
 <style lang="scss">
